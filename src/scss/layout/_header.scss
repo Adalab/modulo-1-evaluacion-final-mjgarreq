@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     background-position: 85%;
     background-size: cover;
-    padding-bottom: 130px;
+    padding-bottom: 100px;
     &_article {
         height: 100%;
         display: flex;
@@ -26,17 +26,21 @@
         justify-content: flex-end;
         align-items: center;
         text-align: center;
+        gap: 20px;
 
         &-title {
             font-family: $font-secondary;
             color: $color-quarter;
             font-size: 3rem;
+            line-height: 1.67;
+            font-weight: bold;
         }
 
         &-p {
            font-family: $font-main; 
            color: $color-quarter;
            font-size: 1.6rem;
+           line-height: 1.19;
         }
     }
 }
