@@ -30,23 +30,25 @@
         font-size: 20px;
         font-weight: 500;
         text-align: 2.25;
-        width: 270px;
+        width: 190px;
         border-radius: 90px;
-        padding-top: 14px;
-        padding-bottom: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         &:hover {
             transform: rotate(0.5turn);
             transition: 1s;
         }
     }
 
-    &_img {
+    &_icon-arrow {
         background-color: $color-quarter;
         width: 65px;
         height: 65px;
         border-radius: 50%;
         border: 13px solid $color-quarter;
         transform: translateY(35px);
+        animation-name: slide-in;
+        animation-duration: 3s;
     }
 }
 
