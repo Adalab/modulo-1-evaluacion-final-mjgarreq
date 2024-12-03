@@ -1,0 +1,47 @@
+.store {
+    background-color: $color-quarter;
+    padding-top: 45px;
+    padding-left: 18px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+    &_title {
+        font-family: $font-main;
+        font-size: 1.4rem;
+        line-height: 2.14;
+        color: $color-primary;
+    }
+
+    &_button {
+        border: none;
+        background-color: $color-quarter;
+        border: 3px solid $color-primary;
+        border-radius: 50px;
+        width: 250px;
+        color: $color-primary;
+        font-size: 2rem;
+        font-weight: 500;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.store_article {
+    padding-bottom: 60px;
+    &-title{
+        color: black;
+        font-family: $font-secondary;
+        font-size: 2.2rem;
+        font-weight: bold;
+        line-height: 1.36;
+    }
+    &-p {
+        color: $color-terciary;
+        font-family: $color-primary;
+        font-size: 1.8rem;
+        line-height: 1.67;
+    }
+}
