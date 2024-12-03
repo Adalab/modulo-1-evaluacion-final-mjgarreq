@@ -19,12 +19,12 @@
     background-size: cover;
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     @media (min-width: 768px) {
-        background-position: 70%;
+        background-position: 75%;
         padding-bottom: 30px;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 150px;
+        padding-right: 150px;
     }
     @media (min-width: 1280px) {
         background-position: center;
@@ -49,6 +49,10 @@
                 font-size: 75px;
                 line-height: 1.33;
             }
+            @media (min-width: 1280px) {
+                padding-left: 140px;
+                padding-right: 140px;
+            }
         }
 
         &-p {
@@ -59,7 +63,9 @@
            @media (min-width: 768px) {
             font-size: 24px;
             line-height: 1.17;
-        }
+            padding-left: 90px;
+            padding-right: 90px;
+            }
         }
     }
 }

@@ -56,15 +56,15 @@
     @media (min-width: 768px) {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
-        gap: 150px;
+        gap: 130px;
         padding-bottom: 35px;
     }
 }
 
 .article {
     &_img {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
         box-shadow: 0 7px 8px 0 grey;
     }
