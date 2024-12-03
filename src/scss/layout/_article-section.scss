@@ -34,6 +34,10 @@
         border-radius: 90px;
         padding-top: 14px;
         padding-bottom: 14px;
+        &:hover {
+            transform: rotate(0.5turn);
+            transition: 1s;
+        }
     }
 
     &_img {

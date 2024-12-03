@@ -38,6 +38,11 @@
         font-weight: 500;
         padding-top: 10px;
         padding-bottom: 10px;
+        &:hover {
+            transform: scale(1.5);
+            transition-delay: 30ms;
+            background-color: $color-secondary;
+        }
     }
 }
 
