@@ -1,4 +1,13 @@
 .header {
     position: fixed;
-    top: 0
+    top: 0;
+    &_container{
+        width: 35px;
+        background-color: $color-primary;
+        padding: 10px;
+    
+        & img{
+        width: 14px;
+        }
+    }
 }
