@@ -26,6 +26,10 @@
         padding-left: 100px;
         padding-right: 100px;
     }
+    @media (min-width: 1280px) {
+        background-position: center;
+        background-size: content;
+    }
     &_article {
         height: 100%;
         display: flex;
@@ -38,11 +42,11 @@
         &-title {
             font-family: $font-secondary;
             color: $color-quarter;
-            font-size: 3rem;
+            font-size: 30px;
             line-height: 1.67;
             font-weight: bold;
             @media (min-width: 768px) {
-                font-size: 7.5rem;
+                font-size: 75px;
                 line-height: 1.33;
             }
         }
@@ -50,10 +54,10 @@
         &-p {
            font-family: $font-main; 
            color: $color-quarter;
-           font-size: 1.6rem;
+           font-size: 16px;
            line-height: 1.19;
            @media (min-width: 768px) {
-            font-size: 2.4rem;
+            font-size: 24px;
             line-height: 1.17;
         }
         }
