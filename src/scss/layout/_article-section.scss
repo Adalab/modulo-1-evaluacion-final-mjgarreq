@@ -51,6 +51,17 @@
         transform: translateY(35px);
         animation-name: slide-in;
         animation-duration: 3s;
+        @keyframes slide-in {
+            from {
+                translate: 40vw 5vh;
+                scale: 50% 0.5;
+              }
+            
+              to {
+                translate: 0 0;
+                scale: 100% 1;
+              }
+        }
     }
 }
 
