@@ -26,5 +26,10 @@ o
 npm run dev
 ```
 
+## Guía para publicar el proyecto en GitHub Pages:
+
+Previamente debes haber creado la URL para tu repositorio, y para poder generar la versión de producción usaremos un atajo mediante el comando `npm run deploy`, que convierte nuestros archivos scss en archivos legibles para el navegador, y se guardan en la carpeta docs (donde tenemos la versión de producción), además de hacerse el push automático.
+
+
 ### AUTORA
 MªJosé García Requena
