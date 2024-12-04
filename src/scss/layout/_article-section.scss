@@ -14,11 +14,11 @@
 
     &_title {
         color: black;
-        font-size: 20px;
+        font-size: 2rem;
         font-weight: bold;
         line-height: 1.5;
         @media (min-width: 768px) {
-            font-size: 28px;
+            font-size: 2.8rem;
             line-height: 1.61;
         }
     }
@@ -28,7 +28,7 @@
         background-color: $color-primary;
         font-family: $font-main;
         color: $color-quarter;
-        font-size: 20px;
+        font-size: 2rem;
         font-weight: 500;
         text-align: 2.25;
         width: 190px;
@@ -79,11 +79,11 @@
     }
 
     &_title{
-        font-size: 14px;
+        font-size: 1.4rem;
         font-weight: bold;
         line-height: 2.14;
         @media (min-width: 768px) {
-            font-size: 18px;
+            font-size: 1.8rem;
             line-height: 1.67;
         }
     }
