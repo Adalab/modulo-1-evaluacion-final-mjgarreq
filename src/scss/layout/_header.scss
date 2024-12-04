@@ -5,7 +5,8 @@
     background-color: $color-primary;
     padding: 10px;
     border: none;
-    & img{
+
+    &-img{
      width: 14px;
     }
 }
@@ -20,6 +21,7 @@
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 70px;
+
     @media (min-width: 768px) {
         background-position: 75%;
         padding-bottom: 30px;
@@ -42,11 +44,11 @@
         &-title {
             font-family: $font-secondary;
             color: $color-quarter;
-            font-size: 30px;
+            font-size: 3rem;
             line-height: 1.67;
             font-weight: bold;
             @media (min-width: 768px) {
-                font-size: 75px;
+                font-size: 7.5rem;
                 line-height: 1.33;
             }
             @media (min-width: 1280px) {
@@ -58,22 +60,22 @@
         &-p {
            font-family: $font-main; 
            color: $color-quarter;
-           font-size: 16px;
+           font-size: 1.6rem;
            line-height: 1.19;
            @media (min-width: 768px) {
-            font-size: 24px;
+            font-size: 2.4rem;
             line-height: 1.17;
             padding-left: 98px;
             padding-right: 98px;
             }
         }
-    }
-}
 
-.hero_article-img {
-    width: 55px;
-    height: 55px;
-    background-color: $color-quarter;
-    border-radius: 50%;
-    border: 15px solid $color-quarter;
+        &-img {
+            width: 55px;
+            height: 55px;
+            background-color: $color-quarter;
+            border-radius: 50%;
+            border: 15px solid $color-quarter;
+        }
+    }
 }

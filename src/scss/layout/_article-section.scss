@@ -5,9 +5,10 @@
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
+
     &_slogan {
         color: #626262;
-        font-size: 12px;
+        font-size: 1.2rem;
         font-weight: bold;
     }
 
@@ -34,8 +35,9 @@
         border-radius: 90px;
         padding-top: 10px;
         padding-bottom: 10px;
+
         &:hover {
-            transform: rotate(0.5turn);
+            transform: rotate(1turn);
             transition: 1s;
         }
     }
@@ -68,6 +70,7 @@
 }
 
 .article {
+
     &_img {
         width: 150px;
         height: 150px;
