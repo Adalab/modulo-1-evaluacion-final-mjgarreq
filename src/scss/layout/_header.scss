@@ -32,6 +32,7 @@
         background-position: center;
         background-size: content;
     }
+
     &_article {
         height: 100%;
         display: flex;
@@ -43,7 +44,7 @@
 
         &-title {
             font-family: $font-secondary;
-            color: $color-quarter;
+            color: $color-quaternary;
             font-size: 3rem;
             line-height: 1.67;
             font-weight: bold;
@@ -59,23 +60,23 @@
 
         &-p {
            font-family: $font-main; 
-           color: $color-quarter;
+           color: $color-quaternary;
            font-size: 1.6rem;
            line-height: 1.19;
            @media (min-width: 768px) {
-            font-size: 2.4rem;
-            line-height: 1.17;
-            padding-left: 98px;
-            padding-right: 98px;
-            }
+                font-size: 2.4rem;
+                line-height: 1.17;
+                padding-left: 98px;
+                padding-right: 98px;
+           }
         }
 
         &-img {
             width: 55px;
             height: 55px;
-            background-color: $color-quarter;
+            background-color: $color-quaternary;
             border-radius: 50%;
-            border: 15px solid $color-quarter;
+            border: 15px solid $color-quaternary;
         }
     }
 }
