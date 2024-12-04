@@ -3,67 +3,100 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Comienzos Compartidos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./assets/main-62015576.css">
+    <link rel="stylesheet" href="./assets/index-c5debb82.css">
   </head>
 
   <body>
-    <div class="page">
-      <header class="page__header">
-  <img src="./images/logo-adalab.png" alt="Adalab">
-  <h1>Bienvenidos a Adalab</h1>
+    
+    <header class="header" id="hero">
+    
+    <button class="header_container"><a href="https://adalab.es" target="_blank"><img src="./images/ico-menu.svg" alt="icon-menu" class="header_container-img"/></a></button>
+
+    <section class="hero">
+        <article class="hero_article">
+            <h1 class="hero_article-title">COMIENZOS COMPARTIDOS</h1>
+            <p class="hero_article-p">Todo lo que necesitan para volver al cole con ilusión</p>
+            <a href="#school"><img src="./images/ico-scroll-down.svg" alt="icon-scroll-down" class="hero_article-img" /></a>
+        </article>
+    </section>
+
 </header>
 
-      <main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
-  </p>
-  <ul class="main__list">
-    <li>
-      <a class="link__adalab" href="https://adalab.es">Adalab</a>
+    <main>
 
-    </li>
-    <li>
-      <a class="{=$aClass}" href="./more-info.html">Más info del starter kit</a>
+      <section class="store">
 
-    </li>
-  </ul>
-</main>
+    <h2 class="store_title">HISTORIAS, MODA Y ROPA DEPORTIVA</h2>
 
-      <footer class="page__footer">
-  <small>
-    &copy; Todos los derechos reservados
-    <a class="link__adalab" href="https://adalab.es">Adalab</a>
+    <article class="store_article">
+        <h3 class="store_article-title">TU TIENDA DE DEPORTE</h3>
+        <p class="store_article-p">El deporte nos mantiene en forma. Nos mantiene alerta. Nuestra ropa deportiva para hombre y mujer te ofrece las últimas tecnologías, a la altura de tu rendimiento, para que superes tu mejor marca personal.</p>
+    </article>
 
-  </small>
+    <button class="store_button">Comprar</button>
+    
+</section>
+      <section class="school" id="school">
+
+    <h3 class="school_slogan">¡Prepáralos con tus marcas favoritas!</h3>
+
+    <h2 class="school_title">VUELTA AL COLE</h2>
+
+    <div class="school_articles">
+        <article class="article">
+    <img src="./images/lpbts-mod05-img01-desk.png" alt="A girl with a backpack" class="article_img"/>
+    <h3 class="article_title">Mochilas escolares</h3>
+</article>
+        <article class="article">
+    <img src="./images/lpbts-mod05-img04-mob.png" alt="A boy playing with pencils" class="article_img"/>
+    <h3 class="article_title">Estuches</h3>
+</article>
+        <article class="article">
+    <img src="./images/lpbts-mod05-img03-mob.png" alt="Another girl with a backpack" class="article_img"/>
+    <h3 class="article_title">Bolsas de deporte</h3>
+</article>
+    </div>
+
+    <button class="school_button">Empezar ahora</button>
+
+    <a href="#hero"><img src="./images/ico-arrow.svg" alt="icon-arrow" class="school_icon-arrow" /></a>
+
+</section>
+
+    </main>
+    
+    <footer class="footer">
+
+    <section class="footer_copy">
+        <p>&copy;2023</p>
+        <p class="footer_copy-love">we <i class="fa-solid fa-heart" style="color: #6c933e;"></i> run</p>
+    </section>
+
+    <section class="footer_menu">
+        <ul>
+            <li><a href="https://adalab.es" target="_blank" class="footer_menu-link">ZAPATILLAS</a></li>
+            <li><a href="https://adalab.es" target="_blank" class="footer_menu-link">ROPA</a></li>
+            <li><a href="https://adalab.es" target="_blank" class="footer_menu-link">NIÑO/A</a></li>
+            <li><a href="https://adalab.es" target="_blank" class="footer_menu-link">DESTACADOS</a></li>
+            <li><a href="https://adalab.es" target="_blank" class="footer_menu-link">TIPS</a></li>
+        </ul>
+    </section>
+
+    <section class="footer_menu">
+        <ul>
+            <li><a href="https://adalab.es" target="_blank" class="footer_menu-link">TWITTER</a></li>
+            <li><a href="https://adalab.es" target="_blank" class="footer_menu-link">INSTAGRAM</a></li>
+            <li><a href="https://adalab.es" target="_blank" class="footer_menu-link">YOUTUBE</a></li>
+        </ul>
+    </section>
+    
 </footer>
 
-    </div>
-    <script src="./js/main.js"></script>
   </body>
 </html>
